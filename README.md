@@ -6,7 +6,7 @@ Hands-on digital forensics practice by **Lucky Gurjar**. Each project is a short
 
 A practice investigation of a Canon camera memory card image using **Autopsy**. The goal was to identify the device, read photo metadata (EXIF), and find deleted images and check whether they can be recovered.
 
-**Full report:** [`report/Lucky_Gurjar_Digital_Forensics_Report.pdf`](report/Lucky_Gurjar_Digital_Forensics_Report.pdf)
+**Full report:** [`report/Lucky_Gurjar_Digital_Forensics_Report.pdf`](report/Lucky_Gurjar_Digital_Forensics_Report.pdf?raw=true)
 
 ### Evidence
 
@@ -65,11 +65,12 @@ The evidence image is not included in this repository. It is a public training i
 ### Skills Demonstrated
 
 Evidence hashing and integrity, disk image analysis, EXIF metadata analysis, deleted file identification, file carving, forensic report writing, chain of custody documentation.
+
 ## Project 2: Network Traffic Analysis of an HTTP Capture
 
 Analysis of a public Wireshark training capture (`http.cap`) of a web browsing session, using **Wireshark**.
 
-**Full report:** [`project2-wireshark/Lucky_Gurjar_Wireshark_Report.pdf`](project2-wireshark/Lucky_Gurjar_Wireshark_Report.pdf)
+**Full report:** [`project2-wireshark/Lucky_Gurjar_Wireshark_Report.pdf`](project2-wireshark/Lucky_Gurjar_Wireshark_Report.pdf?raw=true)
 
 ### Evidence
 
