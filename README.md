@@ -65,11 +65,48 @@ The evidence image is not included in this repository. It is a public training i
 ### Skills Demonstrated
 
 Evidence hashing and integrity, disk image analysis, EXIF metadata analysis, deleted file identification, file carving, forensic report writing, chain of custody documentation.
+## Project 2: Network Traffic Analysis of an HTTP Capture
+
+Analysis of a public Wireshark training capture (`http.cap`) of a web browsing session, using **Wireshark**.
+
+**Full report:** [`project2-wireshark/Lucky_Gurjar_Wireshark_Report.pdf`](project2-wireshark/Lucky_Gurjar_Wireshark_Report.pdf)
+
+### Evidence
+
+| Item | Details |
+|---|---|
+| File | `http.cap` (pcap, Ethernet, 25 kB) |
+| Source | Wireshark Sample Captures (public training file) |
+| MD5 | `3346524bd119b437166186b83935ad67` |
+| SHA-256 | `25a72bdf10339f2c29916920c8b9501d294923108de8f29b19aba7cc001ab60d` |
+
+### Tools
+
+- Wireshark (packet list, Capture File Properties, Protocol Hierarchy, Conversations, display filters)
+- Windows PowerShell `Get-FileHash`
+
+### Key Findings
+
+- **43 packets** over 30.4 seconds (41 TCP, 2 UDP/DNS, 4 HTTP), captured on 13 May 2004.
+- **3 conversations** with the client 145.254.160.237: a web server (65.208.228.223), a DNS server (145.253.2.203) and a Google ad server (216.239.59.99).
+- **DNS:** the client looked up `pagead2.googlesyndication.com` (packets 13 and 17).
+- **HTTP:** `GET /download.html` from `www.ethereal.com` (packet 4) and a Google ad request (packet 18). Both returned `200 OK`.
+- **One TCP spurious retransmission** (packet 36) with a duplicate ACK (packet 37). This is normal network behaviour, not an attack.
+- No signs of malicious activity were observed.
+
+### Limitations
+
+- Follow TCP Stream was not used, and the gzip-compressed ad response was not decompressed.
+- Wireshark shows times in the examiner's local time zone (IST).
+- This is a public training capture, so the findings do not describe a real incident.
+
+### Skills Demonstrated
+
+Packet capture analysis, protocol and conversation analysis, DNS and HTTP analysis, display filters, TCP anomaly identification, evidence hashing, forensic report writing.
 
 ## Planned Next Projects
 
 - Evidence acquisition and hash verification with FTK Imager
-- Network traffic analysis with Wireshark
 - Metadata and email header analysis
 - A combined mini case report
 
