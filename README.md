@@ -50,12 +50,6 @@ The evidence image is not included in this repository. It is a public training i
 - **1 image recovered** (`f0000000.jpg`). It was found by file carving (searching raw data for JPEG signatures), not through the normal file table. It shows a photo of a computer monitor with a TextEdit window displaying the digit "1".
 - Content of the other four deleted files could not be previewed in Autopsy.
 
-### Screenshots
-
-| Autopsy directory tree | Recovered image |
-|---|---|
-| ![Directory tree](screenshots/directory_tree.png) | ![Recovered image](screenshots/recovered_f0000000.jpg) |
-
 ### Limitations
 
 - Only Autopsy was used. The four non-previewable files may be recoverable with other tools or may be partly overwritten; this was not tested.
