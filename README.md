@@ -2,8 +2,6 @@
 
 Hands-on digital forensics practice by **Lucky Bhati**. Each project is a short, documented case with tools, steps, findings and limitations.
 
-LinkedIn: [www.linkedin.com/in/lucky-gurjar-b31146285](www.linkedin.com/in/lucky-bhati-b31146285)
-
 ## Project 1: Forensic Analysis of a Camera Memory Card Image
 
 A practice investigation of a Canon camera memory card image using **Autopsy**. The goal was to identify the device, read photo metadata (EXIF), and find deleted images and check whether they can be recovered.
