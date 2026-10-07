@@ -2,17 +2,7 @@
 
 Hands-on digital forensics practice by **Lucky Bhati**. Each project is a short, documented case with tools, steps, findings and limitations.
 
-LinkedIn: [www.linkedin.com/in/lucky-gurjar-b31146285](https://www.linkedin.com/in/lucky-gurjar-b31146285)
-
-| # | Project | Tools | Report |
-|---|---|---|---|
-| 1 | Forensic analysis of a camera memory card image | Autopsy | [PDF](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/reports/Report1-Autopsy.pdf) |
-| 2 | Network traffic analysis of an HTTP capture | Wireshark | [PDF](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/reports/Report2-Wireshark.pdf) |
-| 3 | Image metadata (EXIF) analysis | ExifTool | [PDF](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/reports/Report3-ExifTool.pdf) |
-
-GitHub downloads the PDF reports instead of opening them in the browser. This is normal.
-
----
+LinkedIn: [www.linkedin.com/in/lucky-gurjar-b31146285](www.linkedin.com/in/lucky-bhati-b31146285)
 
 ## Project 1: Forensic Analysis of a Camera Memory Card Image
 
