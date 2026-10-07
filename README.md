@@ -6,7 +6,7 @@ Hands-on digital forensics practice by **Lucky Bhati**. Each project is a short,
 
 A practice investigation of a Canon camera memory card image using **Autopsy**. The goal was to identify the device, read photo metadata (EXIF), and find deleted images and check whether they can be recovered.
 
-**Full report:** [Download report (PDF)](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/reports/Report1-Autopsy.pdf)
+**Full report:** [Download report (PDF)](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/Reports/Lucky_Bhati_Autopsy_Report.pdf)
 
 ### Evidence
 
@@ -66,7 +66,7 @@ Evidence hashing and integrity, disk image analysis, EXIF metadata analysis, del
 
 Analysis of a public Wireshark training capture (`http.cap`) of a web browsing session, using **Wireshark**.
 
-**Full report:** [Download report (PDF)](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/reports/Report2-Wireshark.pdf)
+**Full report:** [Download report (PDF)](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/Reports/Lucky_Bhati_Wireshark_Report.pdf)
 
 ### Evidence
 
@@ -107,7 +107,7 @@ Packet capture analysis, protocol and conversation analysis, DNS and HTTP analys
 
 Analysis of the metadata of two image files, a smartphone photo and a camera image recovered in Project 1, using **ExifTool**.
 
-**Full report:** [Download report (PDF)](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/reports/Report3-ExifTool.pdf)
+**Full report:** [Download report (PDF)](https://github.com/luckybhati9927-del/Digital-Forensics-Projects/raw/main/Reports/Lucky_Bhati_Metadata_Report.pdf)
 
 ### Tools
 
